@@ -4,7 +4,7 @@
 //
 //  Created by Patricio Alberola Gutiérrez on 15/02/2019.
 //  Copyright © 2019 Patricio Alberola Gutiérrez. All rights reserved.
-//  Hola Mundo
+// 
 
 import Cocoa
 
