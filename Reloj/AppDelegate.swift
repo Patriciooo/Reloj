@@ -64,7 +64,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @IBOutlet weak var GuionSabado: NSTextField!
     
-    @IBOutlet weak var GuinDomingo: NSTextField!
+    @IBOutlet weak var GuionDomingo: NSTextField!
     
     @IBOutlet weak var LabelFecha: NSTextField!
     
@@ -109,7 +109,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         if dia == 1 {
             
-            GuinDomingo.isHidden = false
+            GuionDomingo.isHidden = false
             GuionLunes.isHidden = true
             GuionMartes.isHidden = true
             GuionMiercoles.isHidden = true
@@ -120,7 +120,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         if dia == 2 {
             
-            GuinDomingo.isHidden = true
+            GuionDomingo.isHidden = true
             GuionLunes.isHidden = false
             GuionMartes.isHidden = true
             GuionMiercoles.isHidden = true
@@ -130,7 +130,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         if dia == 3 {
             
-            GuinDomingo.isHidden = true
+            GuionDomingo.isHidden = true
             GuionLunes.isHidden = true
             GuionMartes.isHidden = false
             GuionMiercoles.isHidden = true
@@ -140,7 +140,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         if dia == 4 {
             
-            GuinDomingo.isHidden = true
+            GuionDomingo.isHidden = true
             GuionLunes.isHidden = true
             GuionMartes.isHidden = true
             GuionMiercoles.isHidden = false
@@ -150,7 +150,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         if dia == 5 {
             
-            GuinDomingo.isHidden = true
+            GuionDomingo.isHidden = true
             GuionLunes.isHidden = true
             GuionMartes.isHidden = true
             GuionMiercoles.isHidden = true
@@ -160,7 +160,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         if dia == 6 {
           
-            GuinDomingo.isHidden = true
+            GuionDomingo.isHidden = true
             GuionLunes.isHidden = true
             GuionMartes.isHidden = true
             GuionMiercoles.isHidden = true
@@ -172,7 +172,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         if dia == 7 {
             
-            GuinDomingo.isHidden = true
+            GuionDomingo.isHidden = true
             GuionLunes.isHidden = true
             GuionMartes.isHidden = true
             GuionMiercoles.isHidden = true
