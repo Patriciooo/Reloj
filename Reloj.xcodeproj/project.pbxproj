@@ -10,6 +10,7 @@
 		464AAFFF22173913002CE29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464AAFFE22173913002CE29E /* AppDelegate.swift */; };
 		464AB00122173914002CE29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464AB00022173914002CE29E /* Assets.xcassets */; };
 		464AB00422173914002CE29E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464AB00222173914002CE29E /* MainMenu.xib */; };
+		46F2B5F323FEBA9200BDF8F3 /* TDTChannels.png in Resources */ = {isa = PBXBuildFile; fileRef = 46F2B5F223FEBA9200BDF8F3 /* TDTChannels.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		464AB00322173914002CE29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		464AB00522173914002CE29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		464AB00622173914002CE29E /* Reloj.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reloj.entitlements; sourceTree = "<group>"; };
+		46F2B5F223FEBA9200BDF8F3 /* TDTChannels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TDTChannels.png; path = ../../../../../../Desktop/TDTChannels.png; sourceTree = "<group>"; };
 		46FE458E22A9D0F000C24DDF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainMenu.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,6 +54,7 @@
 		464AAFFD22173913002CE29E /* Reloj */ = {
 			isa = PBXGroup;
 			children = (
+				46F2B5F223FEBA9200BDF8F3 /* TDTChannels.png */,
 				464AAFFE22173913002CE29E /* AppDelegate.swift */,
 				464AB00022173914002CE29E /* Assets.xcassets */,
 				464AB00222173914002CE29E /* MainMenu.xib */,
@@ -102,6 +105,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				Base,
 				es,
 			);
@@ -121,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				464AB00122173914002CE29E /* Assets.xcassets in Resources */,
+				46F2B5F323FEBA9200BDF8F3 /* TDTChannels.png in Resources */,
 				464AB00422173914002CE29E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
